@@ -1,0 +1,10 @@
+
+// *views/posts/view -- (mengapit button-button edit delete)
+<?php if($this->session->userdata('user_id') == $post['user_id']): ?>
+<?php endif; ?>
+
+// *controllers/Users -- else dari if($user_id). kurleb baris ke 66 
+					// Set message
+					$this->session->set_flashdata('login_failed', 'Login is invalid');
+
+					redirect('users/login');

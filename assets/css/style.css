@@ -1,0 +1,37 @@
+.bg {
+    background-image: url("../images/posts/selain.jpg");
+  
+    background-size: 100% ;
+    background-attachment: fixed;
+    background-size: auto;
+    background-color: grey;
+  }
+
+.post-thumb {
+    width:100%;
+}
+
+.center {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.pagination-links {
+    margin: 30px;
+}
+
+.pagination-links strong {
+    padding: 8px 13px;
+    margin: 5px;
+    background: #f4f4f4;
+    border: 1px #ccc solid;
+}
+
+a.pagination-link {
+    padding: 8px 13px;
+    margin: 5px;
+    background: #f4f4f4;
+    border: 1px #ccc solid;
+}
